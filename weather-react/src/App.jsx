@@ -6,7 +6,7 @@ import ResultContainer from './components/ResultContainer';
 import { useEffect } from 'react';
 
 const App = () => {
-  const API = useRef('https://react-weather-app.vengernazar0.workers.dev/');
+  const API = useRef('https://react-weather-app.dark-backend.workers.dev/');
 
   const [searchTxt, setSearchTxt] = useState('');
 
